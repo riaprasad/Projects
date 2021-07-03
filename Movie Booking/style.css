@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: lightgray;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/*.movie-screen {
+  width: 481px;
+
+  height: 15px;
+  background-color: #2c0703;
+  border-radius: 12px 12px 0 0;
+}*/
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.maincontainer {
+  background-color: black;
+  width: 65%;
+  height: 81vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  grid-gap: 10px;
+  padding: 20px;
+  border-radius: 2px;
+}
+
+.items {
+  height: 100%;
+  width: 100%;
+  border-radius: 2px;
+  background-color: #d48e66;
+}
+
+.items:hover {
+  background-color: #a7cf7c;
+  opacity: 0.5;
+}
+.booked {
+  background-color: #accc56;
+}
+
+
+
+
+
+
+
+/*body{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}*/
+
+
+/*.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.frame{
+  display: grid;
+
+  height: 400px;
+  width: 400px;
+  background-color: lightgray;
+  /*grid-template-rows: ( auto);
+  grid-template-columns: ( auto);
+  padding: 10px;
+  box-sizing: content-box;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.233);
+}
+
+
+.box{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	box-sizing: border-box;
+	border: 1px solid #1b1c1a;
+	cursor: pointer;
+}
+
+.center{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.switch {
+	background-color: green;
+	border: none;
+}
+
+
+
+
+/*.items{
+background-color: brown;
+height: 20px;
+width: 20px;
+border: 1px solid #d45837;
+}
+
+.items.itemsclicked{
+  background-color: green;
+  border-color: green;
+}*/
