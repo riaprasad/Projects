@@ -18,7 +18,9 @@ body{
   margin-right: 20%;
 }
 */
-
+h1{
+  color: #fdf3f3;
+}
 
 div{
   display: flex;
@@ -28,7 +30,7 @@ div{
   height: 600px;
   width: 700px;
   flex-wrap: wrap;
-  background-color: #e68d77;
+  background-color: #2b2580;
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: #494646 5px 5px 12px;
